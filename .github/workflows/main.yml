@@ -17,3 +17,4 @@ jobs:
         server: cpanel.infosi.gov.ao
         username: infosigov
         password: temp.123...321
+          server-dir: public_html/novo
