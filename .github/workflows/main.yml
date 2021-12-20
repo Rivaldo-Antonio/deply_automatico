@@ -14,7 +14,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        server: cpanel1.infosi3c4.gov.ao
-        username: infosigov
+        server: ${{ secrets.ftp_host }}
+        username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
+            server-dir: public_html/novo/
           
