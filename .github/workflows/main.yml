@@ -13,7 +13,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-          server: cpanel.infosi.gov.ao
+          server: ftp://cpanel.infosi.gov.ao
         username: infosigov
         password: temp.123...321
 
